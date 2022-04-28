@@ -86,19 +86,6 @@
 
 			
 	</dependencies>
-	<distributionManagement>
-    		<repository>
-      	 		<id>central</id>
-       			<name>myjfrog-releases</name>
-       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo</url>
-    		</repository>	  
-    		<snapshotRepository>
-       			<id>snapshots</id>
-       			<name>myjfrog-snapshots</name>
-       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo/</url>
-   		</snapshotRepository>
-  	</distributionManagement>
-	
 	
 	
 	<build>
