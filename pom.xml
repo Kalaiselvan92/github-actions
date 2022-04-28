@@ -86,6 +86,19 @@
 
 			
 	</dependencies>
+	<distributionManagement>
+    		<repository>
+      	 		<id>central</id>
+       			<name>myjfrog-releases</name>
+       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo</url>
+    		</repository>	  
+    		<snapshotRepository>
+       			<id>snapshots</id>
+       			<name>myjfrog-snapshots</name>
+       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo/</url>
+   		</snapshotRepository>
+  	</distributionManagement>
+	
 	
 	
 	<build>
@@ -145,21 +158,6 @@
 		</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-    		<repository>
-      	 		<id>central</id>
-       			<name>myjfrog-releases</name>
-       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo</url>
-    		</repository>	  
-    		<snapshotRepository>
-       			<id>snapshots</id>
-       			<name>myjfrog-snapshots</name>
-       			<url>https://ksdemo.jfrog.io/artifactory/maven-demo/</url>
-   		</snapshotRepository>
-  	</distributionManagement>
-  	<properties>
-     	   <sonar.organization>kalaiselvan92</sonar.organization>
-     	   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  	</properties>
-
+	
+  	
 </project>
