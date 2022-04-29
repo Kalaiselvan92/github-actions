@@ -16,7 +16,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - uses: actions/checkout@v2
       - name: Maven build and deploy
-        run: mvn clean deploy
+        run: mvn package
   
   
   Analyze:
