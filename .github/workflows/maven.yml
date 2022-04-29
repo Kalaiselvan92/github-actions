@@ -16,12 +16,13 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - uses: actions/checkout@v2
       - name: Maven build and deploy
-        run: mvn package -DskipTests
-  
+        run: |
+          mvn test
+          mvn clean deploy
   
   Analyze:
     name: Analyze
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
