@@ -138,7 +138,7 @@
 			<version>2.19.1</version>
 					
 			<configuration>
-				forkCount>3</forkCount>
+				<forkCount>3</forkCount>
     				<reuseForks>true</reuseForks>
     				<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 				<suiteXmlFiles>
