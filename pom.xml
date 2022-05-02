@@ -156,10 +156,7 @@
        			<url>https://ksdemo.jfrog.io/artifactory/maven-demo/</url>
     		</snapshotRepository>
   	</distributionManagement>
-  	<properties>
-     		<sonar.organization>kalaiselvan92</sonar.organization>
-     		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
- 	</properties>
+  	
 	
   	
 </project>
